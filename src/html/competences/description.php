@@ -1,0 +1,1 @@
+<p class="section-description description-red">En tant qu'<strong>étudiant développeur web</strong>, voici les différentes <strong>compétences</strong> que j'ai acquises et développées au cours de mon <strong>cursus scolaire</strong>, et par le biais de <strong>mon stage en entreprise, en première année de DUT MMI.</strong></p>

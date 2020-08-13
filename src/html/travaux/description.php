@@ -1,0 +1,2 @@
+<p class="section-description description-white">Je vous présente les <strong class="strong-red">sites web</strong> que j'ai réalisé durant mon <strong class="strong-red">parcours scolaire</strong>, en <strong class="strong-red">stage</strong> ou en <strong class="strong-red">projet personnel.</strong>
+Vous pouvez <strong class="strong-red">cliquer sur les images</strong> pour les afficher en grand écran.</p>

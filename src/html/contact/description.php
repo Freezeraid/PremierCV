@@ -1,0 +1,1 @@
+<p class="section-description description-red">Si mon <strong>CV web</strong> a retenu <strong>votre attention</strong>, vous pouvez toujours <strong>me contacter</strong> via le <strong>formulaire</strong>.</p>

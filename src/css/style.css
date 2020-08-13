@@ -1,0 +1,319 @@
+html,
+input,
+textarea {
+    font-family: Helvetica, verdana
+}
+
+.title-next-page,
+h1,
+h2 {
+    text-transform: uppercase
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica.woff2) format('woff2')
+}
+
+@font-face {
+    font-family: Rustico;
+    src: url(../font/Rustico.woff2) format('woff2')
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    color: inherit;
+    text-decoration: none
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+input,
+textarea {
+    font-size: 1vw
+}
+
+body>div {
+    overflow: auto
+}
+
+h1,
+h2 {
+    font-family: Rustico, Roboto, verdana;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: .09vw .09vw 0 #000
+}
+
+.section-title {
+    font-size: 5vw;
+    margin: 4vw 0
+}
+
+.title-red {
+    color: #B7352F
+}
+
+.title-white {
+    color: #FFF
+}
+
+.section-description {
+    font-size: 1.1vw;
+    box-shadow: .04vw .04vw rgba(75, 75, 75, .3);
+    width: 25vw;
+    margin: -3.5vw 0 0 50vw;
+    padding: 1vw;
+    font-style: oblique;
+    text-align: justify
+}
+
+.description-red {
+    background-color: rgba(183, 53, 47, .6);
+    color: #FFF
+}
+
+.description-white {
+    background-color: rgba(75, 75, 75, .6);
+    color: #FFF
+}
+
+strong {
+    font-weight: 700;
+    text-shadow: .035vw .035vw 0 #000
+}
+
+.strong-red {
+    color: #B7352F
+}
+
+.center-con {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.round {
+    position: relative;
+    border: .112vw solid #fff;
+    width: 4.55vw;
+    height: 4.55vw;
+    border-radius: 100%
+}
+
+.black-shownext p {
+    color: #000
+}
+
+.black-shownext .round {
+    border: .112vw solid #000
+}
+
+.round span {
+    z-index: 1;
+    height: .1365vw;
+    width: 1.365vw;
+    background: #fff;
+    transition: .4s ease
+}
+
+.black-shownext .round span {
+    background: #000
+}
+
+.round span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%
+}
+
+.round span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%
+}
+
+.round span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%
+}
+
+.round span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg)
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg)
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg)
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg)
+}
+
+.title-next-page {
+    font-weight: 900;
+    font-size: 1vw;
+    text-align: center;
+    margin-bottom: 1vw;
+    margin-top: 3.5vw
+}
+
+.shownext-page {
+    text-align: center;
+    padding-bottom: 3.5vw;
+    color: #fff
+}
+
+html::-webkit-scrollbar {
+    width: .6%
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 8px
+}
+
+html::-webkit-scrollbar-track {
+    background: #20271F
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    input,
+    textarea {
+        font-size: 1.2vw
+    }
+    #header-bloc {
+        background-image: url(../../src/img/forest-background-1440w.jpg)
+    }
+    .section-title {
+        font-size: 6vw;
+        margin: 5vw 0
+    }
+    .section-description {
+        font-size: 1.4vw;
+        margin: -3.5vw 0 0 50vw
+    }
+    .round {
+        border: .15vw solid #fff;
+        width: 4.275vw;
+        height: 4.275vw
+    }
+    .black-shownext .round {
+        border: .15vw solid #000
+    }
+    .round span {
+        height: .14175vw;
+        width: 1.4175vw
+    }
+    .title-next-page {
+        font-size: 1.1vw;
+        margin-bottom: .7vw;
+        margin-top: 3vw
+    }
+    .shownext-page {
+        padding-bottom: 3.5vw
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    input,
+    textarea {
+        font-size: 1.5vw
+    }
+    #header-bloc {
+        background-image: url(../../src/img/forest-background-1024w.jpg)
+    }
+    .section-title {
+        font-size: 8vw;
+        margin: 5vw 0
+    }
+    .section-description {
+        font-size: 1.8vw;
+        margin: -3.5vw 0 0 50vw;
+        padding: 1.5vw
+    }
+    .round,
+    .title-next-page {
+        display: none
+    }
+    .shownext-page {
+        padding-bottom: 8vw
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    input,
+    textarea {
+        font-size: 3.5vw
+    }
+    #header-bloc {
+        background-image: url(../../src/img/forest-background-768w.jpg)
+    }
+    .section-title {
+        font-size: 10vw;
+        margin: 5vw 0
+    }
+    .section-description {
+        font-size: 3.5vw;
+        margin: -1.5vw auto auto;
+        padding: 2.5vw;
+        width: 50vw
+    }
+    .round,
+    .title-next-page {
+        display: none
+    }
+    .shownext-page {
+        padding-bottom: 8vw
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:424px) {
+    input,
+    textarea {
+        font-size: 4vw
+    }
+    #header-bloc {
+        background-image: url(../../src/img/forest-background-425w.jpg)
+    }
+    .section-title {
+        font-size: 11vw;
+        margin: 8vw 0
+    }
+    .section-description {
+        font-size: 4vw;
+        margin: -1.5vw auto 2vw;
+        padding: 2.5vw;
+        width: 50vw
+    }
+    .round,
+    .title-next-page {
+        display: none
+    }
+    .shownext-page {
+        padding-bottom: 8vw
+    }
+}
